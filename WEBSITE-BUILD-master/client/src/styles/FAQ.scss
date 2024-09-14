@@ -1,0 +1,66 @@
+// Apply background image only to the Terms and Conditions page
+.terms-conditions-page {
+    background: url('https://img.freepik.com/premium-photo/pink-white-floral-background-with-pink-leaves-it_1290686-31118.jpg?ga=GA1.1.452232739.1704961335&semt=ais_hybrid') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  // General styling for the page
+  .terms-conditions-page {
+    padding: 2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .terms-conditions-page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #2c3e50; // Professional and more refined color for the main heading
+    margin-bottom: 2rem;
+  }
+  
+  .terms-conditions-page h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #34495e; // Less dark color for subheadings
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+  
+  .terms-conditions-page p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .terms-conditions-page .box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+  }
+  
+  // Additional styles to ensure a professional look
+  .terms-conditions-page .box {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  // Ensure headings and paragraphs are consistent within the boxes
+  .terms-conditions-page .box h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .terms-conditions-page .box p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .terms-conditions-page h4 {
+    font-size: 1.3rem;
+    font-weight: 540;
+    color: #34495e; // Less dark color for subheadings
+    margin-bottom: 1rem;
+  }
